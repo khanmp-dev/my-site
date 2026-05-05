@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Shailesh Art Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Social Media Icons -->
+    <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+    <img src="logo.png" alt="Shailesh Art Studio Logo" style="height:50px;">
+<div class="logo-text">Shailesh Art Studio</div>
+</div>
+
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="commissioning.html">Commissioning</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Art Gallery</h1>
+        <p>Explore Our Collection of Original Artworks</p>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="abstract">Abstract</button>
+                <button class="filter-btn" data-filter="landscape">Landscape</button>
+                <button class="filter-btn" data-filter="portrait">Portrait</button>
+                <button class="filter-btn" data-filter="urban">Urban</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Artwork 1 -->
+                <div class="gallery-item" data-category="abstract">
+                    <div class="artwork-frame">
+                        <div class="artwork-image">
+    <img src="art1.jpg" alt="Chromatic Dreams">
+</div>
+                    </div>
+                    <div class="artwork-info">
+                        <h3>Chromatic Dreams</h3>
+                        <p class="artwork-description">Bold abstract composition with vibrant blue and yellow tones</p>
+                        <p class="artwork-details">Acrylic on Canvas | 24" x 36"</p>
+                        <p class="artwork-price">$850</p>
+                        <button class="inquire-btn">Inquire</button>
+                    </div>
+                </div>
+
+                <!-- Artwork 2 -->
+                <div class="gallery-item" data-category="landscape">
+                    <div class="artwork-frame">
+                        <div class="artwork-image">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="artwork-info">
+                        <h3>Mountain Serenity</h3>
+                        <p class="artwork-description">Peaceful landscape featuring green valleys and blue skies</p>
+                        <p class="artwork-details">Oil on Canvas | 30" x 40"</p>
+                        <p class="artwork-price">$1,200</p>
+                        <button class="inquire-btn">Inquire</button>
+                    </div>
+                </div>
+
+                <!-- Artwork 3 -->
+                <div class="gallery-item" data-category="portrait">
+                    <div class="artwork-frame">
+                        <div class="artwork-image">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="artwork-info">
+                        <h3>Timeless Gaze</h3>
+                        <p class="artwork-description">Expressive portrait capturing depth and emotion</p>
+                        <p class="artwork-details">Oil on Canvas | 18" x 24"</p>
+                        <p class="artwork-price">$950</p>
+                        <button class="inquire-btn">Inquire</button>
+                    </div>
+                </div>
+
+                <!-- Artwork 4 -->
+                <div class="gallery-item" data-category="urban">
+                    <div class="artwork-frame">
+                        <div class="artwork-image">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="artwork-info">
+                        <h3>City Lights</h3>
+                        <p class="artwork-description">Dynamic urban scene with vibrant yellow and blue highlights</p>
+                        <p class="artwork-details">Mixed Media | 36" x 48"</p>
+                        <p class="artwork-price">$1,450</p>
+                        <button class="inquire-btn">Inquire</button>
+                    </div>
+                </div>
+
+                <!-- Artwork 5 -->
+                <div class="gallery-item" data-category="abstract">
+                    <div class="artwork-frame">
+                        <div class="artwork-image">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="artwork-info">
+                        <h3>Energy Flow</h3>
+                        <p class="artwork-description">Abstract expression of movement with green and blue swirls</p>
+                        <p class="artwork-details">Acrylic on Canvas | 24" x 24"</p>
+                        <p class="artwork-price">$720</p>
+                        <button class="inquire-btn">Inquire</button>
+                    </div>
+                </div>
+
+                <!-- Artwork 6 -->
+                <div class="gallery-item" data-category="landscape">
+                    <div class="artwork-frame">
+                        <div class="artwork-image">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="artwork-info">
+                        <h3>Golden Horizon</h3>
+                        <p class="artwork-description">Sunset landscape with warm yellows and cool blues</p>
+                        <p class="artwork-details">Oil on Canvas | 30" x 40"</p>
+                        <p class="artwork-price">$1,150</p>
+                        <button class="inquire-btn">Inquire</button>
+                    </div>
+                </div>
+
+                <!-- Artwork 7 -->
+                <div class="gallery-item" data-category="abstract">
+                    <div class="artwork-frame">
+                        <div class="artwork-image">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="artwork-info">
+                        <h3>Oceanic Depths</h3>
+                        <p class="artwork-description">Deep blues and greens creating underwater atmosphere</p>
+                        <p class="artwork-details">Acrylic on Canvas | 36" x 36"</p>
+                        <p class="artwork-price">$980</p>
+                        <button class="inquire-btn">Inquire</button>
+                    </div>
+                </div>
+
+                <!-- Artwork 8 -->
+                <div class="gallery-item" data-category="urban">
+                    <div class="artwork-frame">
+                        <div class="artwork-image">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="artwork-info">
+                        <h3>Street Stories</h3>
+                        <p class="artwork-description">Vibrant street scene capturing urban life and energy</p>
+                        <p class="artwork-details">Mixed Media | 24" x 36"</p>
+                        <p class="artwork-price">$1,100</p>
+                        <button class="inquire-btn">Inquire</button>
+                    </div>
+                </div>
+
+                <!-- Artwork 9 -->
+                <div class="gallery-item" data-category="landscape">
+                    <div class="artwork-frame">
+                        <div class="artwork-image">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="artwork-info">
+                        <h3>Forest Whispers</h3>
+                        <p class="artwork-description">Lush green forest with dappled sunlight</p>
+                        <p class="artwork-details">Oil on Canvas | 30" x 40"</p>
+                        <p class="artwork-price">$1,250</p>
+                        <button class="inquire-btn">Inquire</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Don't See What You're Looking For?</h2>
+            <p>Commission a custom piece tailored to your vision and space.</p>
+            <a href="commissioning.html" class="cta-button">Start Your Commission</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Shailesh Art Studio</h3>
+                    <p>Creating timeless art that speaks to the soul.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="commissioning.html">Commissioning</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shailesh Art Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
